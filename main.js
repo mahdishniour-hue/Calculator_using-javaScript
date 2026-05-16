@@ -16,3 +16,6 @@ function calc() {
         displayNum.value = 'Erorr'
     };
 };
+function backSpace() {
+    displayNum.value = displayNum.value.slice(0, -1);
+}
