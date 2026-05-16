@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <input id="display" readonly>
+        <div class="keys">
+            <button onclick="appenToAdd('+')" class="opreator">+</button>
+            <button onclick="appenToAdd('9')">9</button>
+            <button onclick="appenToAdd('8')">8</button>
+            <button onclick="appenToAdd('7')">7</button>
+            <button onclick="appenToAdd('-')" class="opreator">-</button>
+            <button onclick="appenToAdd('6')">6</button>
+            <button onclick="appenToAdd('5')">5</button>
+            <button onclick="appenToAdd('4')">4</button>
+            <button onclick="appenToAdd('*')" class="opreator">*</button>
+            <button onclick="appenToAdd('3')">3</button>
+            <button onclick="appenToAdd('2')">2</button>
+            <button onclick="appenToAdd('1')">1</button>
+            <button onclick="appenToAdd('/')" class="opreator">/</button>
+            <button onclick="appenToAdd('0')">0</button>
+            <button onclick="appenToAdd('.')">.</button>
+            <button onclick="calc()">=</button>
+            <button onclick="clearDisplay()" class="opreator">c</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
